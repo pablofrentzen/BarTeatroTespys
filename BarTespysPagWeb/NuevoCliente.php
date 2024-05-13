@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
-    <title>Sesion Ininciada</title>
+    <title>Registro de Clientes</title>
 
 <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
@@ -68,41 +68,36 @@
             </li>
           </ul>
         </div>
-    
         
     <main class="form-signin w-100 m-auto">
+      <form action="RegistrarUsuario.php" method="POST">
       <form>
         <img class="mb-2" src="t1.jpg" alt="" width="300" height="150">
         <h1 class="h3 mb-2 fw-normal" type="submit"><strong><div class="clase-centrar">
           <p>BAR TESPYS</p>
-     
-      
-          <a href="NuevoCliente.php"><div class="clase-centrar">
-            <p>Nuevo Cliente</p>
-        </div>
+      </div></strong></h1>
+        <h3 class="h3 mb-3 fw-normal"><div class="clase-centrar">
+          <p>REGISTRO NUEVO CLIENTE</p>
        
-       
-        <a href="Clientes.html"><div class="clase-centrar">
-            <p>Clientes</p>
+      </div></h3>
+        <div class="form-floating">
+          <input type="text" class="form-control" id="floatingInput" placeholder="nombre" name="nombre">
+          
         </div>
-        
-        <a href="Inventario.html"><div class="clase-centrar">
-            <p>Inventario</p>
-        </div>
-        
-        <a href="Correos.html"><div class="clase-centrar">
-            <p>Correos</p>
-        </div>
-        
-        <a href="Tiendas.html"><div class="clase-centrar">
-            <p>Tiendas</p>
-        </div>
-        <a href="Saldos.html"><div class="clase-centrar">
-          <p>Saldos</p>
-      </div>
-      <a href="index.html"><div class="clase-centrar">
-        <p>Cerrar Sesión</p>
-        </div></a></button>
+        <div class="form-floating">
+          <input type="text" class="form-control" id="floatingInput" placeholder="cedula" name="cedula">
+         
+        <div class="form-floating">
+          <input type="email" class="form-control" id="floatingInput" placeholder="correo" name="correo">
+         
+        <div class="form-floating">
+        </div> 
+         <input class="btn btn-primary w-100 py-2" type="submit" value= "Registrar"name="registro">
+         <a href="Sesion.html"><div class="clase-centrar">
+      <p>Atras</p>
+    <a href="index.html"><div class="clase-centrar">
+      <p>Cerrar Sesión</p>
+    </div></a></button>
         <p class="mt-5 mb-3 text-body-secondary">&copy; 2024</p>
       </form>
     </main>
