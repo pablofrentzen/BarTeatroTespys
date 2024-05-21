@@ -23,9 +23,11 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
 .clase-centrar {
   text-align: center;
 }
+
 .resaltado {
   color: rgb(236, 12, 31);
 }

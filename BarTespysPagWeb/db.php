@@ -1,4 +1,2 @@
 <?php
-$conexion=mysqli_connect("localhost","root","","login","3307");
-
-?>
+$conexion = mysqli_connect("localhost", "root", "", "login", "3307");
