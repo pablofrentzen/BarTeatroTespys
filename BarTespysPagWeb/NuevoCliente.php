@@ -114,7 +114,9 @@
 
           <div class="form-floating">
           </div>
-          <input class="btn btn-primary w-100 py-2" type="submit" value="Registrar" name="registro">
+          <center>
+            <input class="btn btn-success" type="submit" value="Registrar" name="registro">
+          </center>
           <a href="Sesion.html">
             <div class="clase-centrar">
               <p>Atras</p>
